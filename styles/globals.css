@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.slick-prev:before {
+  content: '<';
+  color: black;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: '>';
+  color: black;
+  font-size: 30px;
+}
